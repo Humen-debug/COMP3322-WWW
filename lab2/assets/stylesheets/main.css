@@ -1,0 +1,70 @@
+@import url("basics.css");
+
+header *, nav * {
+  color: #FFFFFF;
+}
+
+.contents {
+  background: #FFFFFF;
+}
+
+header img {
+  float: left;
+}
+
+.contents h2 {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+input[type=submit] {
+  background-color: #2b6a92;
+  border: none;
+  color: #FFFFFF;
+  padding: 1em;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0 0.8em 0.1em grey;
+}
+
+/*
+  ================= Your task: modify or add more styles below  =================
+*/
+
+/* Step 3: Responsive nav bar */
+/* Enable the following rules when the screen has a width no larger than 1080px */
+
+
+
+@media screen and (max-width:1080px)
+{  
+  header {
+    overflow: hidden;
+  }
+  nav {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  nav div {
+    margin-top: 0;
+    width:100%;
+  }
+}
+
+
+
+/* And enable the following rules when the screen has a width no larger than 720px */
+@media screen and (max-width:720px)
+{
+  nav {
+    text-align: left;
+  }
+  nav div {
+    width: 100%;
+  }
+}

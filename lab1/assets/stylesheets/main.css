@@ -1,0 +1,111 @@
+@import url("basics.css");
+
+header *,
+nav * {
+  font-family: sans-serif;
+  color: white;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #65bcf1;
+}
+
+nav a:active {
+  color: #65bcf1;
+}
+
+.contents {
+  background-color: white;
+}
+
+header img {
+  float: left;
+  
+}
+
+.contents h2 {
+  text-align: center;
+  letter-spacing: -1px;
+  padding: 4px;
+  text-decoration: underline;
+  
+}
+
+.center {
+  margin: auto;
+}
+
+table {
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table,
+thead tr {
+  background-color: #2b6a92;
+  color: #ffffff;
+  text-align: left;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: #f3f3f3;
+  color: #2b6a92;
+}
+
+table tbody tr:nth-of-type(even) {
+  background-color: #ffffff;
+  color: #2b6a92;
+}
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid #2b6a92;
+}
+
+table tbody tr.active-row {
+  font-weight: bold;
+  color: #2b6a92;
+}
+
+
+.contents input[type="submit"] {
+  background-color: #2b6a92;
+  border: none;
+  border-radius: 24px;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.contents input[type="submit"]:hover {
+  box-shadow: 0 0 0.8em 0.1em grey;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.contents input{
+  padding: 4px 8px;
+  border-radius: 5px;
+  border-width: 1px;
+  box-sizing: border-box;
+}
+
+
+
+#consultation{
+  padding-top: 20px;
+}
+
+li{
+  padding: 10px 8px;
+}

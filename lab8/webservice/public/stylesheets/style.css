@@ -1,0 +1,171 @@
+/*
+  ================= Basic Elements. DO NOT MODIFY =================
+*/
+
+/* basic color and fonts */
+body {
+  margin: 0;
+  background: #163a50;
+  font: 300 100%/120% "Tahoma", Arial, Helvetica, sans-serif;
+}
+
+header, nav, .contents, footer {
+box-sizing: border-box;
+max-width: 1080px;
+margin-left: auto;
+margin-right: auto;
+}
+
+header, nav, footer {
+background: #0f2736;
+}
+
+h1, h2, h3, h4 {
+font-weight: bold
+}
+
+.contents {
+padding: 1em 1em 1em 1em;
+}
+
+/* increase line spacing for main title */
+h1 {
+line-height: 150%;
+margin-top: 0;
+float: left;
+}
+
+/* size and margin for logo image */
+header img {
+max-width: 100%;
+max-height: 100%;
+margin: 0.5em;
+}
+
+/* style for nav bar */
+nav {
+text-align: right;
+}
+
+nav div {
+box-sizing: border-box;
+display: inline-block;
+/* the margin-top keeps nav bar aligned with bottom of the title */
+margin-top: 7.5em; 
+margin-bottom: 0.5em;
+margin-right: 0;
+padding: 0.2em 0.8em 0.2em 0.8em;
+}
+
+/* style for the table */
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+text-align: center;
+vertical-align: center;
+}
+
+thead tr td {
+font-weight: bold;
+}
+
+tr td {
+padding: 0.2em;
+}
+
+/* change color for links in the table */
+table a {
+font-weight: bold;
+color:#2b6a92;
+}
+
+/* style for the form */
+input {
+max-width: 20%;
+margin-top: 0.2em;
+}
+
+/* style for footer */
+footer {
+margin: auto;
+text-align: center;
+}
+
+footer div {
+padding: 1em;
+}
+
+header *, nav * {
+  color: #FFFFFF;
+}
+
+.contents {
+  background: #FFFFFF;
+}
+
+header img {
+  float: left;
+}
+
+.contents h2 {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+input[type=submit] {
+  background-color: #2b6a92;
+  border: none;
+  color: #FFFFFF;
+  padding: 1em;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0 0.8em 0.1em grey;
+}
+
+#courses {
+  text-align: center;
+}
+
+a {
+  color: #0099cc; 
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+#update_form {
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  header {
+    overflow: hidden;
+  }
+  nav {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  nav div {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  nav {
+    text-align: left;
+  }
+  nav div {
+    width: 100%;
+  }
+} 

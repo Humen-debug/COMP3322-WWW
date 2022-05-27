@@ -1,0 +1,27 @@
+extends layout
+
+block content 
+    header
+        img(src='/images/logo.png' width="128" height="128")
+        h1 HKU<br>Computer Science<br>Course Management
+
+    nav
+        div Welcome administrator
+
+    section(class="contents")
+        h2 Courses Overview
+        div
+            table#course_table(class="center") 
+
+        h2 Add/Update Course
+        div#update_form
+            input#inputName(type='text', placeholder='Course Name')
+            br
+            input#inputCredit(type='text', placeholder='Course Credit')
+            br
+            input#inputSemester(type='text', placeholder='Course semester')
+            p
+                button#submitCourse Add/Update Course
+
+    footer
+        div <a href="#">Back to top</a></div>

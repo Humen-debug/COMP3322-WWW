@@ -1,0 +1,86 @@
+@import url("basics.css");
+
+/*
+  ================= DO NOT MODIFY =================
+*/
+
+header *, nav * {
+  color: #FFFFFF;
+}
+
+.contents {
+  background: #FFFFFF;
+}
+
+header img {
+  float: left;
+}
+
+.contents h2 {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+}
+
+input[type=submit] {
+  background-color: #2b6a92;
+  border: none;
+  color: #FFFFFF;
+  padding: 1em;
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 0 0.8em 0.1em grey;
+}
+
+@media only screen and (max-width: 1080px) {
+  header {
+    overflow: hidden;
+  }
+  nav {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  nav div {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  nav {
+    text-align: left;
+  }
+  nav div {
+    width: 100%;
+  }
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#playButtonCanvas {
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+#quiz_container {
+  text-align: center;
+}
+
+#quiz_container * {
+  display: inline-block;
+  text-align: left;
+  padding: 0.5em;
+  margin: 0.5em;
+  min-width: 1em;
+}
